@@ -4,7 +4,7 @@
 
 ![Example of how the game looks like](game-of-life-example.gif)
 
-You can change screen resolution and number of cells in [MainLoop.hs](./Rendering/MainLoop.hs).
+You can change screen resolution and number of cells in [MainLoop.hs](./src/Rendering/MainLoop.hs).
 Also game is capped at 30FPS, otherwise game defaults quite fast with smaller amounts of cells.
 
 **Supports pausing with Space and mouse interaction.**

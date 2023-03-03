@@ -1,0 +1,15 @@
+#version 330 core
+precision mediump float;
+
+uniform vec2 u_viewPort;
+//uniform uint u_ticks;
+in vec3 fragment_color;
+
+
+void main() {
+    //vec2 normalizedFragCoord = gl_FragCoord.xy/u_viewPort;
+
+    //vec3 sinColor = (abs(sin(u_ticks * 0.001f))) * fragment_color;
+
+    gl_FragColor = vec4(fragment_color, 1.0f);
+}

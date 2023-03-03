@@ -14,3 +14,6 @@ Main idea was to use Yampa and see what Functional Reactive Programming is about
 ### Conclusion
 
 With Yampa we can have a nice set of well defined behaviours. At first there was traditional implementation with game loop, but after transition to Yampa I saw nice performance boost. Program with 9000 (300x300) cells are using 170MB of memory at max. Concurrency shouldn't be hard to implement.
+
+## Example of game with 9000 cells
+![Example of game with 9000 cells](game-of-life-300x300.gif)

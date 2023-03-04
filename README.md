@@ -2,6 +2,13 @@
 
 ## This project is powered by SDL2 and OpenGL
 
+What colors represent
+Black - Alive Cells
+White - Dead Cells
+Red - Cells which are about to die / died in previous iteration
+Green - Cells which are about to ressurect / alive in next iteration
+
+
 ![A game example](game-of-life-example.gif)
 
 You can change screen resolution and number of cells in [MainLoop.hs](./src/Rendering/MainLoop.hs).
